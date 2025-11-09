@@ -67,6 +67,25 @@ Passos principais:
 - **Python 3.8** ou superior instalado;
 - Nenhuma biblioteca externa necessária (somente o módulo padrão `heapq`).
 
+## Exemplo de Execução
+
+- Entrada:
+  
+S 0 1 0
+0 0 0 0
+1 1 0 E
+
+- Saída:
+
+  Menor caminho (em coordenadas): [(0,0), (1,0), (1,1), (1,2), (2,2), (2,3)]
+Labirinto com o caminho destacado:
+
+S * 1 0
+0 * * *
+1 1 * E
+
+
+
 ## 5. Análise de Complexidade
 5.1. Complexidade Temporal
 
@@ -86,6 +105,7 @@ Complexidade espacial: O(n), proporcional ao número de células do labirinto.
 
 - A implementação do Algoritmo A* demonstra como heurísticas podem otimizar a busca de caminhos em grafos e matrizes.
 - A abordagem é amplamente utilizada em IA, jogos, robótica móvel e sistemas de navegação, equilibrando custo e desempenho para alcançar resultados eficientes.
+
 
 
 
