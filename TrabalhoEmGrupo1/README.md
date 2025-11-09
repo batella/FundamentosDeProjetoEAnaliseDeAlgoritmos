@@ -106,12 +106,7 @@ f(n) = g(n) + h(n)
 | Tipo de Saída | Conteúdo |
 |----------------|-----------|
 | **Menor caminho (em coordenadas)** | `[(0,0), (1,0), (1,1), (1,2), (2,2), (2,3)]` |
-| **Labirinto com o caminho destacado** |  
-
-S * 1 0
-0 * * *
-1 1 * E
-
+| **Labirinto com o caminho destacado** |  S * 1 0, 0 * * * , 1 1 * E |
 
 ---
 
@@ -138,4 +133,5 @@ Essa abordagem é amplamente utilizada em áreas que exigem **eficiência e prec
 - **Roteamento em redes.**
 
 O projeto evidencia o equilíbrio entre **custo e desempenho**, mostrando a importância da heurística de Manhattan na tomada de decisões durante o processo de busca.
+
 
