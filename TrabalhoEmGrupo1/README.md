@@ -1,5 +1,5 @@
 # Fundamentos de Projeto e Análise de Algoritmos
-**Alunos:** Caio Batella, Raul Fernandes Goulart, Ian Nascimento Rocha  
+**Alunos:** Caio Batella, Raul Fernandes Goulart, Ian Nascimento Rocha e Rodrigo Diniz Carvalho
 **Professor:** João Paulo Carneiro Aramuni  
 **Disciplina:** Fundamentos de Projeto e Análise de Algoritmos – PUC Minas  
 **Descrição:** Implementação do algoritmo A* para resolução de labirintos.
@@ -133,5 +133,6 @@ Essa abordagem é amplamente utilizada em áreas que exigem **eficiência e prec
 - **Roteamento em redes.**
 
 O projeto evidencia o equilíbrio entre **custo e desempenho**, mostrando a importância da heurística de Manhattan na tomada de decisões durante o processo de busca.
+
 
 
