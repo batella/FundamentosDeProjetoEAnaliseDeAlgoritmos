@@ -13,7 +13,7 @@
 
 ## 2. Descrição do Projeto
 
-Este projeto implementa o **algoritmo A\*** (*A-star*), um dos métodos de busca heurística mais eficientes para encontrar o **menor caminho entre dois pontos** em um grafo ou matriz — neste caso, aplicado a um **labirinto**.
+Este projeto implementa o **algoritmo A\*** (*A-star*), um dos métodos de busca heurística mais eficientes para encontrar o **menor caminho entre dois pontos** em um grafo ou matriz  neste caso, aplicado a um **labirinto**.
 
 O algoritmo utiliza uma função heurística (distância de Manhattan) para estimar o custo restante até o destino e priorizar os caminhos mais promissores, equilibrando **exploração** e **otimização**.
 
@@ -70,9 +70,9 @@ Passos principais:
 ## 5. Análise de Complexidade
 5.1. Complexidade Temporal
 
-- Melhor caso: O(n) — quando o destino está próximo do ponto inicial.
+- Melhor caso: O(n)  quando o destino está próximo do ponto inicial.
 
-- Pior caso: O(n log n) — quando é necessário explorar quase todo o labirinto.
+- Pior caso: O(n log n)  quando é necessário explorar quase todo o labirinto.
 
 - Geral: O algoritmo é eficiente pois evita percorrer caminhos improváveis graças à heurística de Manhattan.
 
@@ -86,5 +86,6 @@ Complexidade espacial: O(n), proporcional ao número de células do labirinto.
 
 - A implementação do Algoritmo A* demonstra como heurísticas podem otimizar a busca de caminhos em grafos e matrizes.
 - A abordagem é amplamente utilizada em IA, jogos, robótica móvel e sistemas de navegação, equilibrando custo e desempenho para alcançar resultados eficientes.
+
 
 
