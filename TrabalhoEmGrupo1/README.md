@@ -61,6 +61,30 @@ Passos principais:
 4. Quando o ponto final é encontrado, reconstrói o **caminho percorrido**;  
 5. Caso não exista solução, retorna a mensagem `"Sem solução"`.
 
-### 3.4. Destacando o Caminho
-Após encontrar o percurso, o programa substitui as posições do caminho por `*`, facilitando a visualização:
+## 4. Como Rodar
+
+### Pré-requisitos
+- **Python 3.8** ou superior instalado;
+- Nenhuma biblioteca externa necessária (somente o módulo padrão `heapq`).
+
+## 5. Análise de Complexidade
+5.1. Complexidade Temporal
+
+- Melhor caso: O(n) — quando o destino está próximo do ponto inicial.
+
+- Pior caso: O(n log n) — quando é necessário explorar quase todo o labirinto.
+
+- Geral: O algoritmo é eficiente pois evita percorrer caminhos improváveis graças à heurística de Manhattan.
+
+5.2. Complexidade Espacial
+
+Mantém listas de nós visitados e abertos;
+
+Complexidade espacial: O(n), proporcional ao número de células do labirinto.
+
+## 6. Conclusão
+
+- A implementação do Algoritmo A* demonstra como heurísticas podem otimizar a busca de caminhos em grafos e matrizes.
+- A abordagem é amplamente utilizada em IA, jogos, robótica móvel e sistemas de navegação, equilibrando custo e desempenho para alcançar resultados eficientes.
+
 
