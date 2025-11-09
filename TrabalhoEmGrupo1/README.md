@@ -71,9 +71,9 @@ Passos principais:
 
 - Entrada:
   
-S 0 1 0
-0 0 0 0
-1 1 0 E
+|S 0 1 0|
+|0 0 0 0|
+|1 1 0 E|
 
 - Saída:
 
@@ -105,6 +105,7 @@ Complexidade espacial: O(n), proporcional ao número de células do labirinto.
 
 - A implementação do Algoritmo A* demonstra como heurísticas podem otimizar a busca de caminhos em grafos e matrizes.
 - A abordagem é amplamente utilizada em IA, jogos, robótica móvel e sistemas de navegação, equilibrando custo e desempenho para alcançar resultados eficientes.
+
 
 
 
