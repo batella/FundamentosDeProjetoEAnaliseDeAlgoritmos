@@ -20,7 +20,7 @@ Esse tipo de problema é comum em:
 
 ## Objetivo do Projeto
 
-Resolver o problema de detectar automaticamente regiões de zeros conectados em um grid e atribuir a cada região uma cor distinta (um identificador numérico crescente), permitindo visualizar facilmente os agrupamentos de células navegáveis.
+Resolver o problema de conseguir detectar  automaticamente regiões de zeros conectados em um grid e atribuir a cada região uma cor distinta (um identificador numérico crescente), permitindo visualizar facilmente os agrupamentos de células navegáveis.
 
 A solução:
 
