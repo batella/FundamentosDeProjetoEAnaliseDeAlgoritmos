@@ -166,4 +166,4 @@ Saída possível:
 
 ## Conclusão
 
-Este projeto demonstra como identificar regiões conectadas em grids 2D, aplicar DFS iterativo e preencher cada região com cores diferentes. O algoritmo pode ser expandido para considerar diagonais, visualizações coloridas ou integração com interfaces gráficas.
+Este projeto ilustra o processo de identificar regiões conectadas em grades 2D, utilizar DFS de forma iterativa e colorir cada área com tonalidades distintas. Além disso, o algoritmo pode ser ampliado para incluir a consideração de conexões diagonais, gerar visualizações coloridas mais ricas ou integrar-se a interfaces gráficas para uma experiência mais completa.
